@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Khula&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: azure;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;       
+    font-family: "Khula", sans-serif;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(82, 169, 209, 0.562);
+    border: 2px double black;
+    border-radius: 35px;
+}
+
+.screen {
+    text-align: end;
+    font-size: 3rem;  
+    margin: 10px;
+    height: 93px;
+    border: 2px double black;
+    background: rgba(61, 207, 233, 0.479);
+    border-radius: 20px;
+    
+}
+
+#calculation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;   
+    margin: 10px;
+    background: rgba(61, 207, 233, 0.479);
+    border: 1px double black;
+    border-radius: 25px;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background: white;
+    border: 1px double black;
+    border-radius: 10px;
+    font-size: 1.8rem;       
+    font-family: "Khula", sans-serif;
+}
+
